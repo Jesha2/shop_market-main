@@ -1,0 +1,127 @@
+.header {
+    color: white;
+
+background-color: #114c17;
+
+    height: 90px; 
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-right: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+}
+
+.header_logoImage {
+    margin-right: 10px;
+}
+
+.header_logoTitle {
+    color: white;
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px ;
+    /* color: white; */
+    /* background-color: #bdbab6; */
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_item {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;  
+    /* color: white; */
+    align-items: center; 
+}
+.user-info {
+    margin-right: 1rem; 
+  }
+.nav_itemLine1 {
+    font-size: 15px;
+}
+
+.nav_itemLine2 {
+    font-size: 17px;
+    font-weight: 800; 
+    margin-right: 1rem; 
+}
+
+.nav_itemCart {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.nav_cartCount {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+/*  dropdown */
+
+   .user-info {
+    position: relative; /* Make the parent container relative */
+  }
+   
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* left: 0;  */
+     background-color: #fff;
+     /* color: #333; */
+     border-radius: 15%;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    /* z-index: 100; */
+  }
+  
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown-menu ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .dropdown-menu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    /* transition: color 0.5s ease; */
+  }   

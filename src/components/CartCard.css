@@ -1,0 +1,34 @@
+.cartCard {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cartCard_info {
+    padding-left: 20px;
+    padding-top: 29px;
+}
+
+.cartCard_info > button {
+   padding: 9px;
+   /* border-radius: 45%; */
+    /* 
+   
+    margin-top: 10px;
+   */
+}
+
+.cartCard_image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.cartCard_rating {
+    display: flex;
+  }
+
+.cartCard_title {
+    font-size: 17px;
+    font-weight: 800;
+}

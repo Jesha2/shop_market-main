@@ -1,0 +1,12 @@
+require('dotenv').config();
+const{DB_CONNECTION_STRING}  = process.env;
+
+const Sequelize = require("sequelize");// returns a Class so upper case
+//since postgres is internal db, we dont have the third arg. if u use Render/firebase, you will need the third arg
+const sequelize= new Sequelize(DB_CONNECTION_STRING, {
+    dialect: 'postgres',
+})
+
+module.exports = {
+    sequelize
+}

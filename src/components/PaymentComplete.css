@@ -1,0 +1,25 @@
+
+
+
+
+.paymentComplete{
+
+
+}
+.paymentMessage{
+  
+display:flex;
+align-items: center;
+align-content: center;
+   justify-content: center;
+    /* margin-top: 20%; */
+    color:rgb(10, 114, 80);
+    text-align: center;
+    border: 1px solid #f0f0f0;
+	border-radius: 5px;
+    margin: 19%;
+	box-shadow: 5px 5px 20px #171717;
+   
+	height: 200px;
+
+}

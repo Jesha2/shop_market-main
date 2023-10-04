@@ -1,0 +1,30 @@
+/* OrderCard.css */
+
+.order-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: calc(50% - 20px); /* To make two columns, adjust width as needed */
+  }
+  
+  .order-card h3 {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .order-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #198a0d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-link:hover {
+    background-color: #1bbb40;
+  }
+  
